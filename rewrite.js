@@ -15,19 +15,20 @@ const cards = [
   "K",
 ];
 const suits = ["H", "S", "C", "D"];
-let deck = [];
+let deck = {};
 
 // make a deck
-function newdeck(arr, numberOfDecks) {
+function newdeck(rDeck, numberOfDecks = 1) {
   for (let h = 0; h < numberOfDecks; h++) {
     for (let i in cards) {
       for (let j in suits) {
-        arr.push(`${cards[i]}${suits[j]}`);
+        rDeck[`${cards[i]}${suits[j]}`] = rDeck[`${cards[i]}${suits[j]}`]+1 || 1;
       }
     }
   }
-  return arr;
+  return rDeck;
 }
+
 //shuffle a deck
 function shuffle(arr) {
   let newArr = [];
@@ -46,8 +47,8 @@ function shuffle(arr) {
   }
   return newArr;
 }
-deck = newdeck(deck, 100);
-deck = shuffle(deck);
+deck = newdeck(deck);
+// deck = shuffle(deck);
 console.log(deck)
 
 
