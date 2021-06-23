@@ -44,7 +44,6 @@ document.getElementById("stand").addEventListener("click", function () {
   if (bettingstage) {
     return;
   }
-  disallowhit = true;
   gamestagestyle();
   recursive("dealerhand");
 });
@@ -125,6 +124,10 @@ function calculatescore(who) {
   let lower = aceCounter + parseInt(scores2);
   let higher = 10 + aceCounter + parseInt(scores2);
 
+  if (aceCounter > 0 && who == 'dealerscore') {
+    scores2 = higher;
+  }
+
   if (aceCounter > 0 && who == 'playerscore') {
     //check for blackjack
     if (aceCounter == 1 && higher == 21 && document.getElementById('playerhand').children.length == 2) {
@@ -161,10 +164,6 @@ function callwinner(bust, who) {
   winner = true;
   bettingstage = true;
   //if bust disallow hit
-  if (bust) {
-    disallowhit = true;
-    disallowstand = true;
-  }
   if (bust && who == "playerscore") {
     console.log("dealer wins");
     dealerwins();
