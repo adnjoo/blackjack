@@ -1,0 +1,55 @@
+/* my personal styling */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* outline: 1px dotted red; */
+}
+
+body {
+  font-size: 24px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    font-size: 36px;
+  }
+}
+
+.center {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center2 {
+  position: absolute;
+}
+
+button {
+  width: 150px;
+}
+
+/*
+#dealerhand {
+  height: 150px;
+
+}
+
+#playerhand {
+  height: 150px;
+}
+ */
+
+.handclass {
+  width: 60%;
+  height: 160px;
+  padding-left: 40%;
+}
+
+.handclass2 {
+  height: 40px;
+}
