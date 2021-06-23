@@ -1,2 +1,2 @@
 # rewrite
-[link](./index.html)
+[link](https://adnjoo.github.io/rewrite/)
