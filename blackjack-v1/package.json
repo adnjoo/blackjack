@@ -1,0 +1,23 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "script.js",
+  "dependencies": {
+    "cardsJS": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnjoo/blackjack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adnjoo/blackjack/issues"
+  },
+  "homepage": "https://github.com/adnjoo/blackjack#readme"
+}

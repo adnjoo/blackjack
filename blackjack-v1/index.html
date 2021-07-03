@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <!-- Styling -->
+    <title>Blackjack</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="bj.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <h1 class="title">Blackjack ♠🂡</h1>
+    <div class="container mycontainer">
+      <!-- dealer cards -->
+      <div class="row h-50">
+        <div class="col" id="dealer">
+          <h3>dealer</h3>
+          <h3 id="dealerscore">0</h3>
+          <h4 id="dealerbust"></h4>
+        </div>
+
+        <!-- chips -->
+        <div class="col" id="info">
+          <div id="winner"></div>
+          <div>chips:</div>
+          <div id="chips">750</div>
+          <div>bet-size:</div>
+          <div id="betsize">100</div>
+          <button id="increase_bet">△</button>
+          <br />
+          <button id="decrease_bet">▽</button>
+          <br />
+          <button id="max_bet">max bet</button>
+        </div>
+      </div>
+      <div class="row h-50">
+        <!-- player cards -->
+        <div class="col" id="player">
+          <h3>my hand</h3>
+          <h3 id="playerscore">0</h3>
+          <h4 id="playerbust"></h4>
+        </div>
+
+        <!-- player buttons -->
+        <div class="col" id="buttons">
+          <button class="button green hidden" id="hit">hit</button>
+          <br />
+          <button class="button blue hidden" id="stand">stand</button>
+          <br />
+          <button class="button grey hidden" id="double">double down</button>
+          <div></div>
+          <button class="button purple" id="split">split</button>
+          <p></p>
+          <button class="button orange" id="nexthand">next hand</button>
+          <p></p>
+          <button class="button violet hidden" id="morechips">
+            more chips pls
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h6 class="title">sorry for bugs - W.I.P.</h6>
+    <footer>
+      Made with 💓 by <a href="https://adnjoo.com">Andrew Njoo </a><br />
+      <img src="http://cyber.dabamos.de/88x31/devils_button.gif" />
+      source code at <a href='https://github.com/adnjoo/blackjack'>github</a>
+    </footer>
+
+    <img src="https://wizardofodds.com/blackjack/images/bj_4d_h17.gif" />
+  </body>
+  <script src="script.js"></script>
+</html>
