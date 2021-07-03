@@ -1,3 +1,3 @@
-# blackjack-v2
+# blackjack
 
 [link](https://adnjoo.github.io/blackjack)
