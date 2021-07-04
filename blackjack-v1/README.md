@@ -1,7 +1,5 @@
 # blackjack
 
-[site](https://adnjoo.github.io/blackjack-v1/)
-
 [figma](https://www.figma.com/file/OdiVarkV5QEDUBjYn2EvhP/blackjack)
 
 v0.0.0.1
