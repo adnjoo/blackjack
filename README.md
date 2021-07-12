@@ -1,6 +1,6 @@
 # blackjack
 
-> I wrote this game to work on my HTML/CSS/JS skills. I used Bootstrap for styling.
+> I wrote this game to work on my HTML/CSS/JS skills.
 
 ## [Demo](https://adnjoo.github.io/blackjack)
 
