@@ -3,6 +3,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* outline: 1px dotted red; */
 }
 
@@ -16,6 +17,7 @@ body {
     background-color: lightblue;
     font-size: 36px;
   }
+
 }
 
 .center {
@@ -23,6 +25,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  outline: 1px solid grey;
+  margin-top: 50px;
+  width: 90%;
 }
 
 .center2 {
@@ -33,16 +38,6 @@ button {
   width: 150px;
 }
 
-/*
-#dealerhand {
-  height: 150px;
-
-}
-
-#playerhand {
-  height: 150px;
-}
- */
 
 .handclass {
   width: 60%;
@@ -52,4 +47,8 @@ button {
 
 .handclass2 {
   height: 40px;
+}
+
+#reset {
+  margin-bottom: 20px;
 }
