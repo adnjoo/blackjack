@@ -1,7 +1,9 @@
 # blackjack
 
-> I wrote this game to practice my HTML/CSS/JS skills. Used several frameworks and libraries like cards.js and bootstrap.
+> I wrote this game to practice my HTML/CSS/JS skills.
 
 <img src='./preview.png' width=200>
 
 ## [Demo](https://adnjoo.github.io/blackjack)
+
+Libraries/frameworks used: Bootstrap, [Cards JS](http://richardschneider.github.io/cardsJS/) for playing cards.
